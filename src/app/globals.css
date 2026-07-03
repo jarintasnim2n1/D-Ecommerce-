@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: #FAFAF8;
+  --color-foreground: #1A1A1A;
+  --color-castleton: #004242;
+  --color-castleton-light: #005C5C;
+  --color-castleton-dark: #002E2E;
+  --color-champagne: #D4A574;
+  --color-champagne-light: #E8C9A0;
+  --color-champagne-dark: #B8865A;
+  --color-coral: #FF6B4A;
+  --color-coral-light: #FF8A70;
+  --color-coral-dark: #E5553A;
+  --color-muted: #F0EDE8;
+  --color-muted-foreground: #6B6B6B;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #1A1A1A;
+  --color-border: #E5E2DD;
+  --color-ring: #004242;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.dark {
+  --color-background: #0F1419;
+  --color-foreground: #E8E6E1;
+  --color-muted: #1C2430;
+  --color-muted-foreground: #8B95A5;
+  --color-card: #162030;
+  --color-card-foreground: #E8E6E1;
+  --color-border: #2A3544;
+}
+
+:root {
+  --background: #FAFAF8;
+  --foreground: #1A1A1A;
+}
+
+.dark {
+  --background: #0F1419;
+  --foreground: #E8E6E1;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+  animation: ticker 30s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-castleton);
+  border-radius: 4px;
+}

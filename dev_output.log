@@ -1,0 +1,143 @@
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.113:3000
+✓ Ready in 9.6s
+
+○ Compiling / ...
+ GET / 200 in 4.1min (next.js: 4.0min, application-code: 3.8s)
+○ Compiling /dashboard ...
+ GET /dashboard 200 in 14.8s (next.js: 14.0s, application-code: 722ms)
+○ Compiling /dashboard/orders ...
+ GET /dashboard/orders 200 in 7.4s (next.js: 7.0s, application-code: 456ms)
+○ Compiling /dashboard/tracking ...
+ GET /dashboard/tracking 200 in 7.9s (next.js: 7.4s, application-code: 456ms)
+○ Compiling /dashboard/wishlist ...
+ GET /dashboard/wishlist 200 in 8.9s (next.js: 8.4s, application-code: 486ms)
+○ Compiling /dashboard/wallet ...
+ GET /dashboard/wallet 200 in 7.8s (next.js: 7.3s, application-code: 515ms)
+○ Compiling /dashboard/notifications ...
+ GET /dashboard/notifications 200 in 6.9s (next.js: 6.5s, application-code: 367ms)
+○ Compiling /dashboard/reviews ...
+ GET /dashboard/reviews 200 in 8.2s (next.js: 7.3s, application-code: 875ms)
+○ Compiling /dashboard/settings ...
+ GET /dashboard/settings 200 in 9.7s (next.js: 8.8s, application-code: 945ms)
+ GET /dashboard/settings 200 in 485ms (next.js: 48ms, application-code: 437ms)
+ GET / 200 in 1818ms (next.js: 1186ms, application-code: 632ms)
+ GET / 200 in 1973ms (next.js: 143ms, application-code: 1830ms)
+○ Compiling /seller ...
+ GET /seller 200 in 11.0s (next.js: 9.5s, application-code: 1425ms)
+○ Compiling /seller/products ...
+ GET /seller/products 200 in 10.0s (next.js: 8.6s, application-code: 1397ms)
+✓ Finished filesystem cache database compaction in 11.3s
+○ Compiling /seller/orders ...
+ GET /seller/orders 200 in 7.6s (next.js: 7.2s, application-code: 467ms)
+○ Compiling /seller/analytics ...
+ GET /seller/analytics 200 in 9.9s (next.js: 9.2s, application-code: 739ms)
+✓ Finished filesystem cache database compaction in 10.5s
+○ Compiling /seller/reviews ...
+ GET /seller/reviews 200 in 7.7s (next.js: 6.7s, application-code: 1076ms)
+○ Compiling /seller/settings ...
+ GET /seller/settings 200 in 9.5s (next.js: 8.7s, application-code: 745ms)
+ GET /seller/products 200 in 797ms (next.js: 50ms, application-code: 747ms)
+✓ Finished filesystem cache database compaction in 11.5s
+ GET /dashboard 200 in 392ms (next.js: 42ms, application-code: 350ms)
+ GET / 200 in 1005ms (next.js: 242ms, application-code: 762ms)
+ GET / 200 in 3.0s (next.js: 253ms, application-code: 2.8s)
+✓ Compiled in 6.7s
+ GET / 200 in 6.2s (next.js: 2.9s, application-code: 3.3s)
+ GET / 200 in 2.3s (next.js: 58ms, application-code: 2.3s)
+✓ Compiled in 1672ms
+✓ Compiled in 2.1s
+ GET / 200 in 2.9s (next.js: 1675ms, application-code: 1213ms)
+✓ Compiled in 2.3s
+ GET / 200 in 3.7s (next.js: 1714ms, application-code: 2.0s)
+ GET / 200 in 543ms (next.js: 168ms, application-code: 375ms)
+✓ Compiled in 1631ms
+ GET / 200 in 2.5s (next.js: 1692ms, application-code: 789ms)
+✓ Compiled in 2.2s
+ GET / 200 in 2.4s (next.js: 119ms, application-code: 2.3s)
+✓ Compiled in 3s
+ GET / 200 in 1061ms (next.js: 96ms, application-code: 965ms)
+✓ Compiled in 1691ms
+ GET /dashboard 200 in 4.8s (next.js: 3.7s, application-code: 1074ms)
+ GET /dashboard/settings 200 in 2.8s (next.js: 1860ms, application-code: 952ms)
+✓ Compiled in 1966ms
+ GET /dashboard/settings 200 in 7.0s (next.js: 2.3s, application-code: 4.7s)
+ GET /dashboard/settings 200 in 3.7s (next.js: 103ms, application-code: 3.6s)
+ GET /dashboard/notifications 200 in 2.8s (next.js: 1948ms, application-code: 820ms)
+ GET /dashboard/settings 200 in 1605ms (next.js: 1303ms, application-code: 302ms)
+✓ Compiled in 4.4s
+ GET /dashboard/settings 200 in 5.8s (next.js: 3.3s, application-code: 2.6s)
+ GET /dashboard/settings 200 in 1072ms (next.js: 269ms, application-code: 803ms)
+ GET /dashboard/settings 200 in 1967ms (next.js: 803ms, application-code: 1164ms)
+ GET /dashboard/settings 200 in 565ms (next.js: 68ms, application-code: 496ms)
+✓ Compiled in 1681ms
+ GET /dashboard/settings 200 in 2.8s (next.js: 1923ms, application-code: 881ms)
+✓ Compiled in 1618ms
+ GET /dashboard/settings 200 in 3.0s (next.js: 1738ms, application-code: 1231ms)
+✓ Finished filesystem cache database compaction in 12.0s
+✓ Compiled in 4.7s
+ GET /dashboard/settings 200 in 1681ms (next.js: 634ms, application-code: 1047ms)
+ GET /dashboard/settings 200 in 8.5s (next.js: 2.2s, application-code: 6.3s)
+ GET /dashboard/settings 200 in 1709ms (next.js: 147ms, application-code: 1563ms)
+ GET /dashboard/settings 200 in 3.0s (next.js: 496ms, application-code: 2.5s)
+ GET /dashboard/settings 200 in 1766ms (next.js: 1025ms, application-code: 742ms)
+ GET /dashboard/settings 200 in 3.5s (next.js: 131ms, application-code: 3.3s)
+✓ Compiled in 4.8s
+ GET /dashboard/settings 200 in 4.5s (next.js: 2.5s, application-code: 1955ms)
+ GET /dashboard/settings 200 in 3.4s (next.js: 1949ms, application-code: 1436ms)
+ GET /dashboard/settings 200 in 3.4s (next.js: 1712ms, application-code: 1700ms)
+ GET /dashboard/settings 200 in 719ms (next.js: 39ms, application-code: 679ms)
+ GET /dashboard 200 in 3.1s (next.js: 2.2s, application-code: 811ms)
+ GET /dashboard/orders 200 in 5.3s (next.js: 3.9s, application-code: 1440ms)
+ GET /dashboard/tracking 200 in 3.2s (next.js: 2.5s, application-code: 651ms)
+ GET /dashboard/wishlist 200 in 3.4s (next.js: 2.4s, application-code: 961ms)
+ GET /dashboard/wallet 200 in 1776ms (next.js: 1450ms, application-code: 325ms)
+ GET /dashboard/notifications 200 in 2.1s (next.js: 1579ms, application-code: 530ms)
+ GET /dashboard/reviews 200 in 1718ms (next.js: 1347ms, application-code: 371ms)
+✓ Finished filesystem cache database compaction in 10.9s
+ GET /dashboard/settings 200 in 287ms (next.js: 30ms, application-code: 256ms)
+ GET / 200 in 290ms (next.js: 27ms, application-code: 263ms)
+ GET / 200 in 3.4s (next.js: 1555ms, application-code: 1798ms)
+○ Compiling /help ...
+ GET /seller 200 in 2.4s (next.js: 1892ms, application-code: 535ms)
+ GET /seller/products 200 in 1173ms (next.js: 917ms, application-code: 256ms)
+ GET /seller/orders 200 in 2.6s (next.js: 1570ms, application-code: 1048ms)
+ GET /seller/analytics 200 in 1607ms (next.js: 1267ms, application-code: 340ms)
+ GET /seller/reviews 200 in 1756ms (next.js: 1233ms, application-code: 523ms)
+ GET /seller/settings 200 in 1767ms (next.js: 1322ms, application-code: 445ms)
+ GET / 200 in 640ms (next.js: 79ms, application-code: 561ms)
+✓ Finished filesystem cache database compaction in 14.2s
+ GET /dashboard/settings 200 in 412ms (next.js: 43ms, application-code: 369ms)
+✓ Compiled in 1451ms
+ GET / 200 in 3.9s (next.js: 1758ms, application-code: 2.1s)
+ GET /seller 200 in 5.1s (next.js: 3.1s, application-code: 2.1s)
+ GET /seller 200 in 11.2s (next.js: 4.4s, application-code: 6.8s)
+ GET /seller 200 in 5.1s (next.js: 2.4s, application-code: 2.7s)
+ GET /seller 200 in 1899ms (next.js: 81ms, application-code: 1818ms)
+ GET /seller 200 in 1978ms (next.js: 615ms, application-code: 1363ms)
+ GET /seller/products 200 in 4.4s (next.js: 2.6s, application-code: 1844ms)
+ GET /seller/orders 200 in 3.1s (next.js: 2.1s, application-code: 1058ms)
+✓ Compiled in 4.5s
+ GET /seller/orders 200 in 4.5s (next.js: 1702ms, application-code: 2.8s)
+ GET /seller/orders 200 in 1715ms (next.js: 178ms, application-code: 1537ms)
+ GET /seller/orders 200 in 9.9s (next.js: 2.3s, application-code: 7.6s)
+ GET /seller/orders 200 in 3.9s (next.js: 1770ms, application-code: 2.1s)
+ GET /seller/orders 200 in 1287ms (next.js: 105ms, application-code: 1182ms)
+ GET /seller/orders 200 in 1292ms (next.js: 627ms, application-code: 666ms)
+✓ Compiled in 1866ms
+ GET /seller/orders 200 in 5.6s (next.js: 72ms, application-code: 5.5s)
+ GET /seller/orders 200 in 3.1s (next.js: 1403ms, application-code: 1692ms)
+ GET /seller/orders 200 in 884ms (next.js: 42ms, application-code: 842ms)
+ GET /seller/orders 200 in 886ms (next.js: 457ms, application-code: 429ms)
+✓ Compiled in 1224ms
+ GET /seller/orders 200 in 5.1s (next.js: 1693ms, application-code: 3.4s)
+ GET /seller/products 200 in 1828ms (next.js: 790ms, application-code: 1038ms)
+ GET /seller/orders 200 in 1792ms (next.js: 1272ms, application-code: 520ms)
+✓ Compiled in 3ms
+ GET /seller/analytics 200 in 6.2s (next.js: 2.4s, application-code: 3.7s)
+ GET /seller/analytics 200 in 2.3s (next.js: 1547ms, application-code: 729ms)
+ GET /seller/reviews 200 in 2.9s (next.js: 2.2s, application-code: 698ms)
+ GET /seller/settings 200 in 3.1s (next.js: 2.1s, application-code: 1023ms)
+✓ Finished filesystem cache database compaction in 12.4s
+ GET / 200 in 335ms (next.js: 160ms, application-code: 175ms)
